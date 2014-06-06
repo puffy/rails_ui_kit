@@ -1,10 +1,15 @@
 # RailsUiKit
 
-TODO: Write a gem description
+Helpful components for developing UI in Rails.
 
-## Installation
+Inspired by Cameron Daigle (Hashrocket) series of posts:
+* http://hashrocket.com/blog/posts/managing-design-handoffs-with-the-ui-controller
+* http://hashrocket.com/blog/posts/the-ui-controller-part-2-faking-it
+* http://hashrocket.com/blog/posts/the-ui-controller-part-3-the-ui-helper
 
-Add this line to your application's Gemfile:
+## Installation and configuration
+
+All you need to do is add the next line to your application's Gemfile:
 
     gem 'rails_ui_kit'
 
@@ -12,13 +17,24 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Create your own layout in `app/views/layouts` (e.g. `ui.html.erb`) and define `ui_layout` method in your super controller (`ApplicationController`):
 
-    $ gem install rails_ui_kit
+```ruby
+class ApplicationController < ActionController::Base
+  protected
+
+  def ui_layout
+    'ui'
+  end
+end
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+Create UI templates in `app/views/ui/` folder, partials will be ignored.  
+Browse /ui/ path within app url in the browser to view list of UI templates.
+
+[Current UI helpers](https://github.com/puffy/rails_ui_kit/blob/master/app/helpers/ui_helper.rb)
 
 ## Contributing
 
