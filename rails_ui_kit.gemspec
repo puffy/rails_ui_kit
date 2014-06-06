@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = RailsUiKit::VERSION
   spec.authors       = ["Pavel Belyakov"]
   spec.email         = ["me@puffy.name"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = "TODO: write after publishing on github"
+  spec.summary       = %q{Helpful components for developing UI in Rails}
+  spec.description   = %q{Helpful components for developing UI in Rails}
+  spec.homepage      = "https://github.com/puffy/rails_ui_kit"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
