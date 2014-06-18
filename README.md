@@ -7,6 +7,11 @@ Inspired by Cameron Daigle (Hashrocket) series of posts:
 * http://hashrocket.com/blog/posts/the-ui-controller-part-2-faking-it
 * http://hashrocket.com/blog/posts/the-ui-controller-part-3-the-ui-helper
 
+What included in the gem:
+
+* controller for browsing list of UI templates
+* helpers for creating sample data in the UI templates (read more about using in the above links)
+
 ## Installation and configuration
 
 All you need to do is add the next line to your application's Gemfile:
@@ -17,7 +22,7 @@ And then execute:
 
     $ bundle
 
-Create your own layout in `app/views/layouts` (e.g. `ui.html.erb`) and define `ui_layout` method in your super controller (`ApplicationController`):
+Create your own layout in `app/views/layouts` (e.g. `ui.html.erb`) and define `ui_layout` method in your `ApplicationController`:
 
 ```ruby
 class ApplicationController < ActionController::Base
@@ -32,7 +37,7 @@ end
 ## Usage
 
 Create UI templates in `app/views/ui/` folder, partials will be ignored.  
-Browse /ui/ path within app url in the browser to view list of UI templates.
+Browse `/ui/` path within app url in the browser to view the list of UI templates.
 
 [Current UI helpers](https://github.com/puffy/rails_ui_kit/blob/master/app/helpers/ui_helper.rb)
 
