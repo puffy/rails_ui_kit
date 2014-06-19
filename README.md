@@ -16,7 +16,9 @@ What included in the gem:
 
 All you need to do is add the next line to your application's Gemfile:
 
-    gem 'rails_ui_kit'
+    gem 'rails_ui_kit', group: :development
+
+If you want to use gem functionality on staging or production environment, don't forget to restrict access for `/ui` resource if it necessary.
 
 And then execute:
 
