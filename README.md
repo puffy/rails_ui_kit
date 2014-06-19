@@ -38,8 +38,8 @@ end
 
 ## Usage
 
-Create UI templates in `app/views/ui/` folder, partials will be ignored.  
-Browse `/ui/` path within app url in the browser to view the list of UI templates.
+Create UI templates in application `app/views/ui/` folder.
+Browse `/ui/` path within app url in the browser to view the list of UI templates (partials and folders will be ignored).
 
 [Current UI helpers](https://github.com/puffy/rails_ui_kit/blob/master/app/helpers/ui_helper.rb)
 
