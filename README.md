@@ -1,5 +1,7 @@
 # RailsUiKit
 
+[![Code Climate](https://codeclimate.com/github/puffy/rails_ui_kit.png)](https://codeclimate.com/github/puffy/rails_ui_kit)
+
 Helpful components for developing UI in Rails.
 
 Inspired by Cameron Daigle (Hashrocket) series of posts:
