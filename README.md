@@ -45,6 +45,19 @@ Browse `/ui/` path within app url in the browser to view the list of UI template
 
 [Current UI helpers](https://github.com/puffy/rails_ui_kit/blob/master/app/helpers/ui_helper.rb)
 
+## Override / add functionality
+
+Just create file in `config/initializers/`, e.g.:
+
+```ruby
+# config/initializers/ui_helper_override.rb
+module UiHelper
+  def lorem_awesome
+    'woot'
+  end
+end
+```
+
 ## Contributing
 
 1. Fork it ( http://github.com/puffy/rails_ui_kit/fork )
