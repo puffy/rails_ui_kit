@@ -1,3 +1,3 @@
-Rails.application.routes.prepend do
-  match 'ui(/:action)', controller: 'ui'
+RailsUiKit::Engine.routes.draw do
+  match '/ui(/:action)', controller: 'ui', via: [:get, :post]
 end

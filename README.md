@@ -28,6 +28,14 @@ And then execute:
 
     $ bundle
 
+Mount engine routes in application `config/routes.rb`:
+
+```ruby
+Rails.application.routes.draw do
+  mount RailsUiKit::Engine => '/', as: 'rails_ui_kit'
+end
+```
+
 Create your own layout in `app/views/layouts` (e.g. `ui.html.erb`) and define `ui_layout` method in your `ApplicationController`:
 
 ```ruby

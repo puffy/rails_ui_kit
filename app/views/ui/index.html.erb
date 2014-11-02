@@ -1,5 +1,5 @@
 <ul>
   <% @template_names.each do |template_name| %>
-    <li><%= link_to template_name.titleize, action: template_name %></li>
+    <li><%= link_to template_name.titleize, rails_ui_kit.url_for(controller: 'ui', action: template_name) %></li>
   <% end %>
 </ul>
