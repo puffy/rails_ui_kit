@@ -16,11 +16,13 @@ What included in the gem:
 
 ## Installation and configuration
 
-All you need to do is add the next line to your application's Gemfile:
+Add the next line to your application's Gemfile:
 
-    gem 'rails_ui_kit', group: :development
+```ruby
+gem 'rails_ui_kit', group: :development
+```
 
-If you want to use gem functionality on staging or production environment, don't forget to restrict access for `/ui` resource if it necessary.
+*Note: If you want to use gem functionality on staging or production environment, don't forget to restrict access for `/ui` resource if it necessary.*
 
 And then execute:
 
