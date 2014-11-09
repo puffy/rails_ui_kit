@@ -1,5 +1,3 @@
-require 'rails_ui_kit/engine'
-
 if Gem::Specification.find_all_by_name('ffaker').any?
   require 'ffaker' unless defined?(Faker)
 else
@@ -7,4 +5,6 @@ else
 end
 
 module RailsUiKit
+  class Engine < Rails::Engine
+  end
 end
