@@ -14,6 +14,8 @@ What included in the gem:
 * controller for browsing list of UI templates
 * helpers for creating sample data in the UI templates (read more about using in the above links)
 
+This gem is compatible with Rails 3 and 4.
+
 ## Installation and configuration
 
 Add the next line to your application's Gemfile:
