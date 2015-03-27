@@ -2,7 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/puffy/rails_ui_kit.png)](https://codeclimate.com/github/puffy/rails_ui_kit)
 
-Helpful components for developing UI in Rails.
+Tool for developing markup (UI) in Rails.
 
 Inspired by Cameron Daigle (Hashrocket) series of posts:
 * http://hashrocket.com/blog/posts/managing-design-handoffs-with-the-ui-controller
